@@ -7,3 +7,4 @@ venv/
 myenv/
 .env
 *.sqlite3
+staticfiles/
