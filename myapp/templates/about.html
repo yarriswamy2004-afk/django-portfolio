@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+About | YARRISWAMI A
+{% endblock %}
+
+{% block content %}
+
+<section class="py-5">
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="text-center mb-5">
+
+            <h1 class="display-5 fw-bold">
+                About Me
+            </h1>
+
+            <p class="text-muted">
+                Get to know me and my journey
+            </p>
+
+        </div>
+
+
+        <div class="row align-items-center g-5">
+
+            <!-- Left Side -->
+
+            <div class="col-lg-5 text-center">
+
+                <div class="p-3">
+
+                    <img src="{% static 'images/swamypic.jpeg' %}"
+                         alt="YARRISWAMI A"
+                         class="img-fluid rounded-4 shadow"
+                         style="max-height: 400px;">
+
+                </div>
+
+            </div>
+
+
+            <!-- Right Side -->
+
+            <div class="col-lg-7">
+
+                <h2 class="fw-bold mb-3">
+                    Hi, I'm YARRISWAMI A
+                </h2>
+
+                <p class="lead">
+                    I am an aspiring Software Developer with a
+                    background in Electrical and Electronics Engineering.
+                </p>
+
+                <p>
+                    I am passionate about software development and
+                    building web applications using modern technologies.
+                    I enjoy learning new technologies and turning ideas
+                    into practical applications.
+                </p>
+
+                <p>
+                    I have experience working with
+                    <strong>Python, Django, MySQL, HTML, CSS,
+                    JavaScript and React</strong>.
+                    I am also improving my knowledge of
+                    Data Structures and Algorithms.
+                </p>
+
+                <p>
+                    My goal is to start my career as a Software Developer,
+                    contribute to real-world projects, and continuously
+                    improve my technical and problem-solving skills.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Skills Section -->
+<div class="mt-5">
+
+    <h2 class="text-center fw-bold mb-4">
+        My Skills
+    </h2>
+
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+
+        <!-- Python -->
+        <div class="card border-0 shadow-sm"
+             style="width: 180px;">
+
+            <div class="card-body text-center p-4">
+
+                <h5 class="fw-bold">
+                    Python
+                </h5>
+
+                <p class="text-muted mb-0">
+                    Programming & Backend Development
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Django -->
+        <div class="card border-0 shadow-sm"
+             style="width: 180px;">
+
+            <div class="card-body text-center p-4">
+
+                <h5 class="fw-bold">
+                    Django
+                </h5>
+
+                <p class="text-muted mb-0">
+                    Web Application Development
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MySQL -->
+        <div class="card border-0 shadow-sm"
+             style="width: 180px;">
+
+            <div class="card-body text-center p-4">
+
+                <h5 class="fw-bold">
+                    MySQL
+                </h5>
+
+                <p class="text-muted mb-0">
+                    Database Management
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- HTML & CSS -->
+        <div class="card border-0 shadow-sm"
+             style="width: 180px;">
+
+            <div class="card-body text-center p-4">
+
+                <h5 class="fw-bold">
+                    HTML & CSS
+                </h5>
+
+                <p class="text-muted mb-0">
+                    Frontend Development
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- JavaScript -->
+        <div class="card border-0 shadow-sm"
+             style="width: 180px;">
+
+            <div class="card-body text-center p-4">
+
+                <h5 class="fw-bold">
+                    JavaScript
+                </h5>
+
+                <p class="text-muted mb-0">
+                    Interactive Web Development
+                </p>
+
+            </div>
+
+        </div>
+
+
+        
+
+    </div>
+
+</div>
+
+{% endblock content %}
